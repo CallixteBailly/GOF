@@ -1,5 +1,4 @@
-﻿using System.Diagnostics.Metrics;
-using GOF.Prototype;
+﻿using GOF.Prototype;
 internal class Program
 {
     private static void Main(string[] args)
@@ -59,5 +58,5 @@ internal class Program
     {
         Console.WriteLine($"Name: {c.Name},\nAge: {c.Age},\nBirthDate: {c.BirthDate}");
         Console.WriteLine($"ID#: {c.Address}");
-    }    
+    }
 }

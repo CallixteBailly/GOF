@@ -1,8 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace GOF.Prototype
 {
@@ -25,7 +21,7 @@ namespace GOF.Prototype
 
     }
 
-    public class Customer 
+    public class Customer
     {
         public string Name { get; set; } = null!;
         public int Age { get; set; }
@@ -35,12 +31,12 @@ namespace GOF.Prototype
 
         public Customer ShallowCopy()
         {
-            return (Customer) this.MemberwiseClone();
+            return (Customer)this.MemberwiseClone();
         }
 
         public Customer DeepCopy()
         {
-            Customer clone = (Customer) this.MemberwiseClone();
+            Customer clone = (Customer)this.MemberwiseClone();
             clone.Address = new Address()
             {
                 Address1 = Address.Address1,
