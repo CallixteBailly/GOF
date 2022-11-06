@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Abstract.Factory", "GOF.Abstract.Factory\GOF.Abstract.Factory.csproj", "{77649CAB-60FD-4FC9-BDF0-D758816FB3E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Builder", "GOF.Builder\GOF.Builder.csproj", "{7DAEB646-70A6-4B83-A5C1-87C8C48288DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Factory.Method", "GOF.Factory.Method\GOF.Factory.Method.csproj", "{9A4BABAC-881E-4F0C-949D-3B58013219B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{77649CAB-60FD-4FC9-BDF0-D758816FB3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77649CAB-60FD-4FC9-BDF0-D758816FB3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77649CAB-60FD-4FC9-BDF0-D758816FB3E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DAEB646-70A6-4B83-A5C1-87C8C48288DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DAEB646-70A6-4B83-A5C1-87C8C48288DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DAEB646-70A6-4B83-A5C1-87C8C48288DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DAEB646-70A6-4B83-A5C1-87C8C48288DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4BABAC-881E-4F0C-949D-3B58013219B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4BABAC-881E-4F0C-949D-3B58013219B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4BABAC-881E-4F0C-949D-3B58013219B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4BABAC-881E-4F0C-949D-3B58013219B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
