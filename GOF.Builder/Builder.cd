@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GOF.Builder.ArticleBuilder">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAEAAAAAAAgAAAAAgAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ArticleBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GOF.Builder.DigitalArticleBuilder">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAEAAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DigitalArticleBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GOF.Builder.MarketPlaceArticleBuilder">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAEAAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MarketPlaceArticleBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GOF.Builder.StandardArticleBuilder">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAEAAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StandardArticleBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GOF.Builder.Shop">
+    <Position X="12.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
