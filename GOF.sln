@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Adapter", "GOF.Adapter\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Bridge", "GOF.Bridge\GOF.Bridge.csproj", "{147413A3-444F-48BA-82DF-2B8AB84B037A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Composite", "GOF.Composite\GOF.Composite.csproj", "{1C6782AA-62E8-4CDB-8FEF-AE4E704E4DF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{147413A3-444F-48BA-82DF-2B8AB84B037A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{147413A3-444F-48BA-82DF-2B8AB84B037A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{147413A3-444F-48BA-82DF-2B8AB84B037A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C6782AA-62E8-4CDB-8FEF-AE4E704E4DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C6782AA-62E8-4CDB-8FEF-AE4E704E4DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C6782AA-62E8-4CDB-8FEF-AE4E704E4DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C6782AA-62E8-4CDB-8FEF-AE4E704E4DF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
