@@ -1,8 +1,8 @@
 namespace GOF.Builder;
 
-public class Order
+public static class Order
 {
-    public void Construct(ArticleBuilder articleBuilder)
+    public static void Construct(ArticleBuilder articleBuilder)
     {
         articleBuilder.BuildName();
         articleBuilder.BuildCategories();

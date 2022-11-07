@@ -1,6 +1,6 @@
-﻿using GOF.Factory.Method;
+﻿namespace GOF.Factory.Method;
 
-class Full : ProductDescription
+internal class Full : ProductDescription
 {
     public override void CreateProductDescription()
     {

@@ -1,5 +1,5 @@
-﻿using GOF.Prototype;
-internal class Program
+﻿namespace GOF.Prototype;
+internal static class Program
 {
     private static void Main(string[] args)
     {

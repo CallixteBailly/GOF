@@ -1,10 +1,10 @@
-﻿using GOF.Factory.Method;
+﻿namespace GOF.Factory.Method;
 
-abstract class ProductDescription
+internal abstract class ProductDescription
 {
     public IList<Section> Sections { get; set; } = new List<Section>();
 
-    public ProductDescription()
+    protected ProductDescription()
     {
         CreateProductDescription();
     }

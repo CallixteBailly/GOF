@@ -9,6 +9,13 @@ public class LoyaltyOrderPercentReduce : IOrderPercentReduce
 }
 public class LoyaltyShoppingFactory : IShoppingFactory
 {
-    public IOrderPercentReduce GetPercentReduce() => new LoyaltyOrderPercentReduce();
-    public IOrderPriority GetOrderPriority() => new LoyaltyOrderPriority();
+    public IOrderPercentReduce GetPercentReduce()
+    {
+        return new LoyaltyOrderPercentReduce();
+    }
+
+    public IOrderPriority GetOrderPriority()
+    {
+        return new LoyaltyOrderPriority();
+    }
 }

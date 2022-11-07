@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace GOF.Adapter
 {
     public class ArticleAdapter : Article
@@ -10,7 +5,7 @@ namespace GOF.Adapter
         public new ArticleType Type { get; set; }
         public ArticleAdapter(ArticleType type)
         {
-            this.Type = type;
+            Type = type;
 
         }
         public override void Display()
@@ -24,23 +19,23 @@ namespace GOF.Adapter
         }
         private string GetName(ArticleType type)
         {
-            return (type) switch
+            return type switch
             {
-                (ArticleType.Standard) => $"GetName() => Specific  Standard {Name}",
-                (ArticleType.MarketPlace) => $"GetName() => Specific MarketPlace {Name}",
-                (ArticleType.Digital) => $"GetName() => Specific Digital {Name}",
-                (_) => Name?.ToString() ?? string.Empty,
+                ArticleType.Standard => $"GetName() => Specific  Standard {Name}",
+                ArticleType.MarketPlace => $"GetName() => Specific MarketPlace {Name}",
+                ArticleType.Digital => $"GetName() => Specific Digital {Name}",
+                _ => Name?.ToString() ?? string.Empty,
             };
         }
         private string GetCategory(ArticleType type)
         {
-            return (type) switch
+            return type switch
             {
-                (ArticleType.Standard) => $"GetCategory() => Specific Standard {Category}",
-                (ArticleType.MarketPlace) => $"GetCategory() => Specific MarketPlace {Category}",
-                (ArticleType.Digital) => $"GetCategory() => Specific Digital {Category}",
-                (_) => Name?.ToString() ?? string.Empty,
+                ArticleType.Standard => $"GetCategory() => Specific Standard {Category}",
+                ArticleType.MarketPlace => $"GetCategory() => Specific MarketPlace {Category}",
+                ArticleType.Digital => $"GetCategory() => Specific Digital {Category}",
+                _ => Name?.ToString() ?? string.Empty,
             };
-        }        
+        }
     }
 }

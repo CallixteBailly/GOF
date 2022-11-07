@@ -1,4 +1,4 @@
-﻿
+﻿using GOF.Factory.Method;
 ProductDescription[] productDescriptions = new ProductDescription[2];
 productDescriptions[0] = new Resume();
 productDescriptions[1] = new Full();

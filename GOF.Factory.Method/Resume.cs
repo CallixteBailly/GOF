@@ -1,6 +1,6 @@
-﻿using GOF.Factory.Method;
+﻿namespace GOF.Factory.Method;
 
-class Resume : ProductDescription
+internal class Resume : ProductDescription
 {
     public override void CreateProductDescription()
     {

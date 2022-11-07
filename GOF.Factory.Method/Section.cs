@@ -1,34 +1,34 @@
 ﻿namespace GOF.Factory.Method
 {
-    abstract class Section
+    internal abstract class Section
     {
     }
-    class Review : Section
-    {
 
+    internal class Review : Section
+    {
     }
-    class Tips : Section
-    {
 
+    internal class Tips : Section
+    {
     }
-    class Comment : Section
-    {
 
+    internal class Comment : Section
+    {
     }
-    class Feature : Section
-    {
 
+    internal class Feature : Section
+    {
     }
-    class ShortFeature : Section
-    {
 
+    internal class ShortFeature : Section
+    {
     }
-    class Detail : Section
-    {
 
+    internal class Detail : Section
+    {
     }
-    class ShortDetail : Section
-    {
 
+    internal class ShortDetail : Section
+    {
     }
 }

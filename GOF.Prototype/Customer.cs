@@ -12,13 +12,12 @@ namespace GOF.Prototype
         public override string ToString()
         {
             var result = new StringBuilder();
-            result.AppendLine($"{nameof(Address1)} = {Address1};");
-            result.AppendLine($"{nameof(Address2)} = {Address2};");
-            result.AppendLine($"{nameof(Country)} = {Country};");
-            result.AppendLine($"{nameof(City)} = {City};");
+            result.Append(nameof(Address1)).Append(" = ").Append(Address1).AppendLine(";");
+            result.Append(nameof(Address2)).Append(" = ").Append(Address2).AppendLine(";");
+            result.Append(nameof(Country)).Append(" = ").Append(Country).AppendLine(";");
+            result.Append(nameof(City)).Append(" = ").Append(City).AppendLine(";");
             return result.ToString();
         }
-
     }
 
     public class Customer

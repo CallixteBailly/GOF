@@ -10,6 +10,13 @@ public class StandardOrderPercentReduce : IOrderPercentReduce
 }
 public class StandardShoppingFactory : IShoppingFactory
 {
-    public IOrderPercentReduce GetPercentReduce() => new StandardOrderPercentReduce();
-    public IOrderPriority GetOrderPriority() => new StandardOrderPriority();
+    public IOrderPercentReduce GetPercentReduce()
+    {
+        return new StandardOrderPercentReduce();
+    }
+
+    public IOrderPriority GetOrderPriority()
+    {
+        return new StandardOrderPriority();
+    }
 }
