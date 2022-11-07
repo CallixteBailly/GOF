@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Prototype", "GOF.Protot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Singleton", "GOF.Singleton\GOF.Singleton.csproj", "{D44F6DE8-2FC3-43D7-B02D-C72AEA8589BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Adapter", "GOF.Adapter\GOF.Adapter.csproj", "{074B589A-7DFA-468B-886F-CC02C35A0D50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{D44F6DE8-2FC3-43D7-B02D-C72AEA8589BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D44F6DE8-2FC3-43D7-B02D-C72AEA8589BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D44F6DE8-2FC3-43D7-B02D-C72AEA8589BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074B589A-7DFA-468B-886F-CC02C35A0D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074B589A-7DFA-468B-886F-CC02C35A0D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074B589A-7DFA-468B-886F-CC02C35A0D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074B589A-7DFA-468B-886F-CC02C35A0D50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
