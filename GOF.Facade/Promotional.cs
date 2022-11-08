@@ -1,56 +1,48 @@
 ﻿namespace GOF.Facade
 {
-    public partial class Promotional
+    public static class Promotional
     {
-        private readonly Loyalty loyalty = new();
-        private readonly Sponsorship sponsorship = new();
-        private readonly Credit credit = new();
-
-        public bool IsEligible(Customer cust, int amount)
+        public static bool IsEligible(Customer cust, int amount)
         {
             Console.WriteLine($"{cust.Name} made a purchase of {amount:C} \n");
 
-            bool eligible = true;
-
-            // Check creditworthyness of applicant
-
-            if (!loyalty.HasNoLoyalty(cust, amount))
+            if (!Loyalty.HasNoLoyalty(cust))
             {
-                eligible = false;
+                return false;
             }
-            else if (!sponsorship.HasNoSponsorship(cust))
+            else if (!Sponsorship.HasNoSponsorship(cust))
             {
-                eligible = false;
+                return false;
             }
-            else if (!credit.HasNoCredit(cust))
+            else if (!Credit.HasNoCredit(cust))
             {
-                eligible = false;
+                return false;
             }
 
-            return eligible;
+            return true;
         }
 
-        public class Loyalty
+        public static class Loyalty
         {
-            public bool HasNoLoyalty(Customer c, int amount)
+            public static bool HasNoLoyalty(Customer c)
             {
                 Console.WriteLine("Check loyalty for " + c.Name);
                 return true;
             }
         }
 
-        public class Credit
+        public static class Credit
         {
-            public bool HasNoCredit(Customer c)
+            public static bool HasNoCredit(Customer c)
             {
                 Console.WriteLine("Check credit for " + c.Name);
                 return true;
             }
         }
 
-        public class Sponsorship
+        public static class Sponsorship
         {
-            public bool HasNoSponsorship(Customer c)
+            public static bool HasNoSponsorship(Customer c)
             {
                 Console.WriteLine("Check sponsorship for " + c.Name);
                 return true;

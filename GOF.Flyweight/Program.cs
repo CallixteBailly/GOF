@@ -1,9 +1,11 @@
 ﻿namespace GOF.Flyweight
 {
-    internal class Program
+    internal static class Program
     {
         private static void Main(string[] args)
         {
+            if (args == null)
+                throw new ArgumentNullException(nameof(args));
             // The client code usually creates a bunch of pre-populated
             // flyweights in the initialization stage of the application.
             FlyweightFactory factory = new(

@@ -37,7 +37,6 @@ public class FlyweightFactory
         return _flyweights;
     }
 
-
     public Flyweight GetFlyweight(Order sharedState, IEnumerable<Tuple<Flyweight, string>> flyweights)
     {
         string key = GetKey(sharedState);

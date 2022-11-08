@@ -9,5 +9,4 @@ public class Order
     public string Category { get; set; } = null!;
 
     public string Title { get; set; } = null!;
-
 }
