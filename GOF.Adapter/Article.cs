@@ -5,7 +5,6 @@ namespace GOF.Adapter
         Standard = 0,
         MarketPlace = 1,
         Digital = 2
-
     }
     public class Article
     {

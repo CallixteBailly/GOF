@@ -1,4 +1,5 @@
-﻿internal static class Program
+﻿namespace GOF.Composite;
+internal static class Program
 {
     private static void Main(string[] args)
     {

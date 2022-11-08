@@ -6,7 +6,6 @@ namespace GOF.Adapter
         public ArticleAdapter(ArticleType type)
         {
             Type = type;
-
         }
         public override void Display()
         {

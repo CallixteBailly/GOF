@@ -1,9 +1,10 @@
 ﻿
+namespace GOF.Composite;
 internal abstract class OrderComposite
 {
     protected string name;
     // Constructor
-    public OrderComposite(string name)
+    protected OrderComposite(string name)
     {
         this.name = name;
     }

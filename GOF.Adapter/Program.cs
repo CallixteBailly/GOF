@@ -1,6 +1,6 @@
 ﻿using GOF.Adapter;
 // Non-adapted chemical compound
-Article article = new Article();
+Article article = new();
 article.Display();
 // Adapted chemical compounds
 Article sdArticle = new ArticleAdapter(ArticleType.Standard);

@@ -1,4 +1,5 @@
-﻿internal class Order : OrderComposite
+﻿namespace GOF.Composite;
+internal class Order : OrderComposite
 {
     private readonly List<OrderComposite> _orders = new();
     public Order(string name) : base(name)

@@ -1,6 +1,6 @@
 ﻿namespace GOF.Singleton
 {
-    sealed class Singleton
+    internal sealed class Singleton
     {
         private Singleton() { }
 

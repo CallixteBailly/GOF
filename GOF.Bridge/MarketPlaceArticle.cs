@@ -1,4 +1,4 @@
-﻿using GOF.Bridge;
+﻿namespace GOF.Bridge;
 
 public class MarketPlaceArticle : Article
 {

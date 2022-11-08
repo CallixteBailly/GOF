@@ -11,11 +11,11 @@ namespace GOF.Prototype
 
         public override string ToString()
         {
-            var result = new StringBuilder();
-            result.Append(nameof(Address1)).Append(" = ").Append(Address1).AppendLine(";");
-            result.Append(nameof(Address2)).Append(" = ").Append(Address2).AppendLine(";");
-            result.Append(nameof(Country)).Append(" = ").Append(Country).AppendLine(";");
-            result.Append(nameof(City)).Append(" = ").Append(City).AppendLine(";");
+            StringBuilder result = new();
+            _ = result.Append(nameof(Address1)).Append(" = ").Append(Address1).AppendLine(";");
+            _ = result.Append(nameof(Address2)).Append(" = ").Append(Address2).AppendLine(";");
+            _ = result.Append(nameof(Country)).Append(" = ").Append(Country).AppendLine(";");
+            _ = result.Append(nameof(City)).Append(" = ").Append(City).AppendLine(";");
             return result.ToString();
         }
     }
@@ -30,12 +30,12 @@ namespace GOF.Prototype
 
         public Customer ShallowCopy()
         {
-            return (Customer)this.MemberwiseClone();
+            return (Customer)MemberwiseClone();
         }
 
         public Customer DeepCopy()
         {
-            Customer clone = (Customer)this.MemberwiseClone();
+            Customer clone = (Customer)MemberwiseClone();
             clone.Address = new Address()
             {
                 Address1 = Address.Address1,

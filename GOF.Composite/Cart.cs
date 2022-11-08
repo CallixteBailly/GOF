@@ -1,4 +1,5 @@
-﻿internal class Cart : OrderComposite
+﻿namespace GOF.Composite;
+internal class Cart : OrderComposite
 {
     public Cart(string name) : base(name)
     {

@@ -22,7 +22,7 @@
 
             // Wait for user
 
-           Console.ReadKey();
+            _ = Console.ReadKey();
         }
     }
 }

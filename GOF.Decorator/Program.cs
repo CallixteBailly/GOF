@@ -1,9 +1,13 @@
 ﻿namespace GOF.Decorator
 {
-    public class Program
+    public static class Program
     {
         public static void Main(string[] args)
         {
+            if (args == null)
+            {
+                throw new ArgumentNullException(nameof(args));
+            }
             // Create book
             StandardArticle sdArticle = new("Audio", "Sonos devalt", 5);
             sdArticle.Display();
