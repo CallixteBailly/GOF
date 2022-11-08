@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Composite", "GOF.Compos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Decorator", "GOF.Decorator\GOF.Decorator.csproj", "{2513C75D-CE16-408E-B1C9-A78F78B3CABB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Facade", "GOF.Facade\GOF.Facade.csproj", "{F6BBBF85-F373-4FED-967E-37E3DD492AF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{2513C75D-CE16-408E-B1C9-A78F78B3CABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2513C75D-CE16-408E-B1C9-A78F78B3CABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2513C75D-CE16-408E-B1C9-A78F78B3CABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6BBBF85-F373-4FED-967E-37E3DD492AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6BBBF85-F373-4FED-967E-37E3DD492AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6BBBF85-F373-4FED-967E-37E3DD492AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6BBBF85-F373-4FED-967E-37E3DD492AF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
