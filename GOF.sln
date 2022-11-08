@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Decorator", "GOF.Decora
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Facade", "GOF.Facade\GOF.Facade.csproj", "{F6BBBF85-F373-4FED-967E-37E3DD492AF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Flyweight", "GOF.Flyweight\GOF.Flyweight.csproj", "{1DACDA50-CB31-49AC-947B-E928D27F716C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{F6BBBF85-F373-4FED-967E-37E3DD492AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6BBBF85-F373-4FED-967E-37E3DD492AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6BBBF85-F373-4FED-967E-37E3DD492AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DACDA50-CB31-49AC-947B-E928D27F716C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DACDA50-CB31-49AC-947B-E928D27F716C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DACDA50-CB31-49AC-947B-E928D27F716C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DACDA50-CB31-49AC-947B-E928D27F716C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
