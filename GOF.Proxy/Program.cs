@@ -1,20 +1,16 @@
 ﻿namespace GOF.Proxy;
-/// <summary>
-/// Proxy Design Pattern
-/// </summary>
-
-public class Program
+public static class Program
 {
     public static void Main(string[] args)
     {
-        // Create proxy and request a service
+        if (args is null)
+        {
+            throw new ArgumentNullException(nameof(args));
+        }
 
-        ProxyCart proxy = new ProxyCart();
+        ProxyCart proxy = new();
         proxy.CreateShoppingCart();
-
-        // Wait for user
 
         Console.ReadKey();
     }
 }
-

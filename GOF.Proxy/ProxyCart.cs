@@ -5,11 +5,6 @@ public class ProxyCart : Cart
 
     public override void CreateShoppingCart()
     {
-        if (cart == null)
-        {
-            cart = new CartAPI();
-        }
-        cart.CreateShoppingCart();
+        (cart ??= new CartAPI()).CreateShoppingCart();
     }
 }
-
