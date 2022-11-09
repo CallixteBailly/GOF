@@ -1,5 +1,10 @@
 ﻿namespace GOF.Command;
-internal class Receiver
+internal interface IReceiver
+{
+    public void DoSomething(string a);
+    public void DoSomethingElse(string b);
+}
+internal class Receiver : IReceiver
 {
     public void DoSomething(string a)
     {

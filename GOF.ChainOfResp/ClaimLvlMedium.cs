@@ -8,9 +8,9 @@ public class ClaimLvlMedium : Approver
         {
             Console.WriteLine($"{GetType().Name} approved claim# {purchase.Id}");
         }
-        else if (successor != null)
+        else
         {
-            successor.ProcessRequest(purchase);
+            successor?.ProcessRequest(purchase);
         }
     }
 }

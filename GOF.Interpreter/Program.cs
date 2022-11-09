@@ -1,10 +1,13 @@
 ﻿namespace GOF.Interpreter;
 
-public class Program
+public static class Program
 {
     public static void Main(string[] args)
     {
-        string stepOrderCustomer = "ACEFGLILMO";
+        if (args == null)
+            throw new ArgumentNullException(nameof(args));
+
+        const string stepOrderCustomer = "ACEFGLILMO";
         Context context = new(stepOrderCustomer);
 
         // Build the 'parse tree'
@@ -18,7 +21,7 @@ public class Program
         };
 
         // Interpret
-        for (int i = 1; i < stepOrderCustomer.Count(); i++)
+        for (int i = 1; i < stepOrderCustomer.Length; i++)
         {
             foreach (Step exp in tree)
             {

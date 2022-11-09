@@ -30,9 +30,9 @@ public class LoginStep : Step
     {
         return " > " + input switch
         {
-            REGISTER => $"Register",
-            REGISTER_GOOGLE => $"Register Google",
-            LOGIN => $"Login",
+            REGISTER => "Register",
+            REGISTER_GOOGLE => "Register Google",
+            LOGIN => "Login",
             LOGIN_GOOGLE => "Goole",
             _ => string.Empty,
         };

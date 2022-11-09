@@ -29,9 +29,9 @@ public class AccountStep : Step
     {
         return " > " + input switch
         {
-            INFORMATION => $"Information",
-            ADDRESS => $"address",
-            COLLECTION_ACCOUNT => $"Collection",
+            INFORMATION => "Information",
+            ADDRESS => "address",
+            COLLECTION_ACCOUNT => "Collection",
             ORDER => "Order",
             _ => string.Empty,
         };

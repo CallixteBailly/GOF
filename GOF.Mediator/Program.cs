@@ -1,9 +1,12 @@
 ﻿namespace GOF.Mediator;
 
-public class Program
+public static class Program
 {
     public static void Main(string[] args)
     {
+        if (args == null)
+            throw new ArgumentNullException(nameof(args));
+
         Chatroom chatroom = new();
 
         Participant George = new Support("George");

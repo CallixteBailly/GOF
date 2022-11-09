@@ -18,15 +18,9 @@ internal class Invoker
     public void DoSomethingImportant()
     {
         Console.WriteLine("Invoker: The process of sending the sms is underway ...");
-        if (_onSms is not null)
-        {
-            _onSms.Execute();
-        }
+        _onSms?.Execute();
 
         Console.WriteLine("Invoker: The process of sending mail is in progress ...");
-        if (_onEmail is not null)
-        {
-            _onEmail.Execute();
-        }
+        _onEmail?.Execute();
     }
 }

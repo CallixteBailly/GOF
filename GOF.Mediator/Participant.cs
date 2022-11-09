@@ -13,7 +13,7 @@ public class Participant
 
     public void Send(string to, string message)
     {
-        Chatroom.Send(Name, to, message);
+        Chatroom?.Send(Name!, to, message);
     }
 
     public virtual void Receive(

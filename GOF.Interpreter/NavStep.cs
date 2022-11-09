@@ -30,9 +30,9 @@ public class NavStep : Step
     {
         return " > " + input switch
         {
-            CATEGORY_NAV => $"Category",
-            PROMOTION => $"Promotion",
-            ITEM => $"Item",
+            CATEGORY_NAV => "Category",
+            PROMOTION => "Promotion",
+            ITEM => "Item",
             SEARCH => "Search",
             _ => string.Empty,
         };

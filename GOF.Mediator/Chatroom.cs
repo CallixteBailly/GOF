@@ -1,4 +1,5 @@
-﻿namespace GOF.Mediator;
+﻿using System.Threading.Tasks;
+namespace GOF.Mediator;
 
 public class Chatroom : AbstractChatroom
 {
@@ -6,7 +7,7 @@ public class Chatroom : AbstractChatroom
 
     public override void Register(Participant participant)
     {
-        if (!participants.ContainsValue(participant))
+        if (!participants.ContainsValue(participant) && participant.Name is not null)
         {
             participants[participant.Name] = participant;
         }
@@ -18,9 +19,6 @@ public class Chatroom : AbstractChatroom
     {
         Participant participant = participants[to];
 
-        if (participant != null)
-        {
-            participant.Receive(from, message);
-        }
+        participant?.Receive(from, message);
     }
 }

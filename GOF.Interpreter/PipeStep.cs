@@ -30,9 +30,9 @@ public class PipeStep : Step
     {
         return " > " + input switch
         {
-            CART_PIPE => $"Cart",
-            WISHLIST => $"Wishlist",
-            PAYEMENT => $"Payement",
+            CART_PIPE => "Cart",
+            WISHLIST => "Wishlist",
+            PAYEMENT => "Payement",
             LOGIN_PIPE => "Login pipe",
             _ => string.Empty,
         };
