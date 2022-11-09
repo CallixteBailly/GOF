@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Command", "GOF.Command\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Iterator", "GOF.Iterator\GOF.Iterator.csproj", "{CC158A42-9DBC-4DE5-92B9-004F09B99255}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Interpreter", "GOF.Interpreter\GOF.Interpreter.csproj", "{79C262BA-32A7-4B87-B8EC-BC2CE110621A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{CC158A42-9DBC-4DE5-92B9-004F09B99255}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC158A42-9DBC-4DE5-92B9-004F09B99255}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC158A42-9DBC-4DE5-92B9-004F09B99255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C262BA-32A7-4B87-B8EC-BC2CE110621A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C262BA-32A7-4B87-B8EC-BC2CE110621A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C262BA-32A7-4B87-B8EC-BC2CE110621A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C262BA-32A7-4B87-B8EC-BC2CE110621A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
