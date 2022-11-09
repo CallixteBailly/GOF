@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Iterator", "GOF.Iterato
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Interpreter", "GOF.Interpreter\GOF.Interpreter.csproj", "{79C262BA-32A7-4B87-B8EC-BC2CE110621A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Mediator", "GOF.Mediator\GOF.Mediator.csproj", "{EDD174B2-6692-4F04-8275-ED5664DFDF8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,5 +110,9 @@ Global
 		{79C262BA-32A7-4B87-B8EC-BC2CE110621A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79C262BA-32A7-4B87-B8EC-BC2CE110621A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79C262BA-32A7-4B87-B8EC-BC2CE110621A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDD174B2-6692-4F04-8275-ED5664DFDF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD174B2-6692-4F04-8275-ED5664DFDF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD174B2-6692-4F04-8275-ED5664DFDF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD174B2-6692-4F04-8275-ED5664DFDF8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
