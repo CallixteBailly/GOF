@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GOF.State.Account">
+    <Position X="14" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAABAAgAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GOF.State.HoodLoyalty">
+    <Position X="9.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAQAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>HoodLoyalty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GOF.State.SilverLoyalty">
+    <Position X="11.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAQAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>SilverLoyalty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GOF.State.HighLoyalty">
+    <Position X="7" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAQAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>HighLoyalty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GOF.State.OrderState">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAQAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAgAAEA=</HashCode>
+      <FileName>OrderState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
