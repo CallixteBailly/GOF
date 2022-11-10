@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Mediator", "GOF.Mediato
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Memento", "GOF.Memento\GOF.Memento.csproj", "{4B16A594-2FD4-4981-927F-3F0629CD5768}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Obsever", "GOF.Obsever\GOF.Obsever.csproj", "{C1EBE64A-8B0E-43A4-80FA-3EE3CDADDF11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -120,5 +122,9 @@ Global
 		{4B16A594-2FD4-4981-927F-3F0629CD5768}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B16A594-2FD4-4981-927F-3F0629CD5768}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B16A594-2FD4-4981-927F-3F0629CD5768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1EBE64A-8B0E-43A4-80FA-3EE3CDADDF11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1EBE64A-8B0E-43A4-80FA-3EE3CDADDF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1EBE64A-8B0E-43A4-80FA-3EE3CDADDF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1EBE64A-8B0E-43A4-80FA-3EE3CDADDF11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
