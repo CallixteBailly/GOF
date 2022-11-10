@@ -3,55 +3,54 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Abstract.Factory", "GOF.Abstract.Factory\GOF.Abstract.Factory.csproj", "{77649CAB-60FD-4FC9-BDF0-D758816FB3E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Abstract.Factory", "GOF.Abstract.Factory\GOF.Abstract.Factory.csproj", "{77649CAB-60FD-4FC9-BDF0-D758816FB3E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Builder", "GOF.Builder\GOF.Builder.csproj", "{7DAEB646-70A6-4B83-A5C1-87C8C48288DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Builder", "GOF.Builder\GOF.Builder.csproj", "{7DAEB646-70A6-4B83-A5C1-87C8C48288DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Factory.Method", "GOF.Factory.Method\GOF.Factory.Method.csproj", "{9A4BABAC-881E-4F0C-949D-3B58013219B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Factory.Method", "GOF.Factory.Method\GOF.Factory.Method.csproj", "{9A4BABAC-881E-4F0C-949D-3B58013219B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Prototype", "GOF.Prototype\GOF.Prototype.csproj", "{69D63E70-ACC4-4C8E-BDD5-1AB73488BAA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Prototype", "GOF.Prototype\GOF.Prototype.csproj", "{69D63E70-ACC4-4C8E-BDD5-1AB73488BAA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Singleton", "GOF.Singleton\GOF.Singleton.csproj", "{D44F6DE8-2FC3-43D7-B02D-C72AEA8589BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Singleton", "GOF.Singleton\GOF.Singleton.csproj", "{D44F6DE8-2FC3-43D7-B02D-C72AEA8589BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Adapter", "GOF.Adapter\GOF.Adapter.csproj", "{074B589A-7DFA-468B-886F-CC02C35A0D50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Adapter", "GOF.Adapter\GOF.Adapter.csproj", "{074B589A-7DFA-468B-886F-CC02C35A0D50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Bridge", "GOF.Bridge\GOF.Bridge.csproj", "{147413A3-444F-48BA-82DF-2B8AB84B037A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Bridge", "GOF.Bridge\GOF.Bridge.csproj", "{147413A3-444F-48BA-82DF-2B8AB84B037A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Composite", "GOF.Composite\GOF.Composite.csproj", "{1C6782AA-62E8-4CDB-8FEF-AE4E704E4DF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Composite", "GOF.Composite\GOF.Composite.csproj", "{1C6782AA-62E8-4CDB-8FEF-AE4E704E4DF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Decorator", "GOF.Decorator\GOF.Decorator.csproj", "{2513C75D-CE16-408E-B1C9-A78F78B3CABB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Decorator", "GOF.Decorator\GOF.Decorator.csproj", "{2513C75D-CE16-408E-B1C9-A78F78B3CABB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Facade", "GOF.Facade\GOF.Facade.csproj", "{F6BBBF85-F373-4FED-967E-37E3DD492AF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Facade", "GOF.Facade\GOF.Facade.csproj", "{F6BBBF85-F373-4FED-967E-37E3DD492AF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Flyweight", "GOF.Flyweight\GOF.Flyweight.csproj", "{1DACDA50-CB31-49AC-947B-E928D27F716C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Flyweight", "GOF.Flyweight\GOF.Flyweight.csproj", "{1DACDA50-CB31-49AC-947B-E928D27F716C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Proxy", "GOF.Proxy\GOF.Proxy.csproj", "{D5BF7E85-0BC2-465D-96C5-38C99363C949}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Proxy", "GOF.Proxy\GOF.Proxy.csproj", "{D5BF7E85-0BC2-465D-96C5-38C99363C949}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.ChainOfResp", "GOF.ChainOfResp\GOF.ChainOfResp.csproj", "{CF9FD8E7-7605-4B56-90EF-233E05CCE354}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.ChainOfResp", "GOF.ChainOfResp\GOF.ChainOfResp.csproj", "{CF9FD8E7-7605-4B56-90EF-233E05CCE354}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Command", "GOF.Command\GOF.Command.csproj", "{3BFEF68B-93C8-4675-84B9-B851916EEFA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Command", "GOF.Command\GOF.Command.csproj", "{3BFEF68B-93C8-4675-84B9-B851916EEFA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Iterator", "GOF.Iterator\GOF.Iterator.csproj", "{CC158A42-9DBC-4DE5-92B9-004F09B99255}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Iterator", "GOF.Iterator\GOF.Iterator.csproj", "{CC158A42-9DBC-4DE5-92B9-004F09B99255}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Interpreter", "GOF.Interpreter\GOF.Interpreter.csproj", "{79C262BA-32A7-4B87-B8EC-BC2CE110621A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Interpreter", "GOF.Interpreter\GOF.Interpreter.csproj", "{79C262BA-32A7-4B87-B8EC-BC2CE110621A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Mediator", "GOF.Mediator\GOF.Mediator.csproj", "{EDD174B2-6692-4F04-8275-ED5664DFDF8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Mediator", "GOF.Mediator\GOF.Mediator.csproj", "{EDD174B2-6692-4F04-8275-ED5664DFDF8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Memento", "GOF.Memento\GOF.Memento.csproj", "{4B16A594-2FD4-4981-927F-3F0629CD5768}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Memento", "GOF.Memento\GOF.Memento.csproj", "{4B16A594-2FD4-4981-927F-3F0629CD5768}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Obsever", "GOF.Obsever\GOF.Obsever.csproj", "{C1EBE64A-8B0E-43A4-80FA-3EE3CDADDF11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Obsever", "GOF.Obsever\GOF.Obsever.csproj", "{C1EBE64A-8B0E-43A4-80FA-3EE3CDADDF11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.State", "GOF.State\GOF.State.csproj", "{1AE727AD-91F1-4F8D-879A-B876C523D3F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.State", "GOF.State\GOF.State.csproj", "{1AE727AD-91F1-4F8D-879A-B876C523D3F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Strategy", "GOF.Strategy\GOF.Strategy.csproj", "{D68CB15D-AF1F-4E4B-A658-8CEAFFA4789B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Strategy", "GOF.Strategy\GOF.Strategy.csproj", "{D68CB15D-AF1F-4E4B-A658-8CEAFFA4789B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Template.Method", "GOF.Template.Method\GOF.Template.Method.csproj", "{DC08D4BF-024F-4459-AB40-EA2F536C347F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{77649CAB-60FD-4FC9-BDF0-D758816FB3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -138,5 +137,15 @@ Global
 		{D68CB15D-AF1F-4E4B-A658-8CEAFFA4789B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D68CB15D-AF1F-4E4B-A658-8CEAFFA4789B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D68CB15D-AF1F-4E4B-A658-8CEAFFA4789B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC08D4BF-024F-4459-AB40-EA2F536C347F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC08D4BF-024F-4459-AB40-EA2F536C347F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC08D4BF-024F-4459-AB40-EA2F536C347F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC08D4BF-024F-4459-AB40-EA2F536C347F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E359F3B7-2C8C-44A1-849D-80F335C6813D}
 	EndGlobalSection
 EndGlobal
