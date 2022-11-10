@@ -5,7 +5,7 @@ public abstract class Stock
     private double price;
     private readonly List<ICustomer> Customer = new();
 
-    public Stock(string symbol, double price)
+    protected Stock(string symbol, double price)
     {
         Tittle = symbol;
         this.price = price;
@@ -18,7 +18,7 @@ public abstract class Stock
 
     public void Detach(ICustomer customer)
     {
-        _ = Customer.Remove(customer);
+        Customer.Remove(customer);
     }
 
     public void Notify()

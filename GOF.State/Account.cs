@@ -2,7 +2,6 @@
 
 public class Account
 {
-
     public Account()
     {
         // New accounts are 'Silver' by default

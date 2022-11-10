@@ -25,4 +25,3 @@ public class Item
         HasStock = memento.HasStock;
     }
 }
-

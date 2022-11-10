@@ -32,8 +32,6 @@ public class SilverLoyalty : OrderState
         StateChangeCheck();
     }
 
-
-
     private void StateChangeCheck()
     {
         if (Balance > UpperLimit)

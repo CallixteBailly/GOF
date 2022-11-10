@@ -33,8 +33,6 @@ public class HoodLoyalty : OrderState
         StateChangeCheck();
     }
 
-
-
     private void StateChangeCheck()
     {
         if (Balance > UpperLimit)

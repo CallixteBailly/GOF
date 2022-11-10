@@ -1,8 +1,11 @@
 ﻿namespace GOF.Memento;
-public class Program
+public static class Program
 {
     public static void Main(string[] args)
     {
+        if (args == null)
+            throw new ArgumentNullException(nameof(args));
+
         Item i = new()
         {
             HasStock = "On"
