@@ -2,15 +2,15 @@
 
 public class Item
 {
-    private string? hasStock;
+    private string? _hasStock;
 
     public string HasStock
     {
-        get => hasStock ?? string.Empty;
+        get => _hasStock ?? string.Empty;
         set
         {
-            hasStock = value;
-            Console.WriteLine("State = " + hasStock);
+            _hasStock = value;
+            Console.WriteLine("State = " + _hasStock);
         }
     }
 

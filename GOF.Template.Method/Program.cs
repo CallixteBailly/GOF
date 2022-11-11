@@ -15,6 +15,6 @@ public static class Program
         DataAccessor products = new Items();
         products.Run(3);
 
-        Console.ReadKey();
+        _ = Console.ReadKey();
     }
 }

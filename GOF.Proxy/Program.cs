@@ -11,6 +11,6 @@ public static class Program
         ProxyCart proxy = new();
         proxy.CreateShoppingCart();
 
-        Console.ReadKey();
+        _ = Console.ReadKey();
     }
 }

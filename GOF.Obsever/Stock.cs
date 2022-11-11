@@ -2,28 +2,28 @@
 
 public abstract class Stock
 {
-    private double price;
-    private readonly List<ICustomer> Customer = new();
+    private double _price;
+    private readonly List<ICustomer> _customer = new();
 
     protected Stock(string symbol, double price)
     {
         Tittle = symbol;
-        this.price = price;
+        _price = price;
     }
 
     public void Attach(ICustomer customer)
     {
-        Customer.Add(customer);
+        _customer.Add(customer);
     }
 
     public void Detach(ICustomer customer)
     {
-        Customer.Remove(customer);
+        _ = _customer.Remove(customer);
     }
 
     public void Notify()
     {
-        foreach (ICustomer customer in Customer)
+        foreach (ICustomer customer in _customer)
         {
             customer.Update(this);
         }
@@ -33,12 +33,12 @@ public abstract class Stock
 
     public double Price
     {
-        get => price;
+        get => _price;
         set
         {
-            if (price != value)
+            if (_price != value)
             {
-                price = value;
+                _price = value;
                 Notify();
             }
         }

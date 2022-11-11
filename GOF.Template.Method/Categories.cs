@@ -2,21 +2,21 @@
 
 public class Categories : DataAccessor
 {
-    private List<string>? categories;
+    private List<string>? _categories;
 
     public override void Connect()
     {
-        categories = new List<string>();
+        _categories = new List<string>();
     }
 
     public override void Select()
     {
-        categories?.Add("Laptop");
-        categories?.Add("Smartphone");
-        categories?.Add("TV");
-        categories?.Add("Gaming");
-        categories?.Add("Book");
-        categories?.Add("Digital");
+        _categories?.Add("Laptop");
+        _categories?.Add("Smartphone");
+        _categories?.Add("TV");
+        _categories?.Add("Gaming");
+        _categories?.Add("Book");
+        _categories?.Add("Digital");
     }
 
     public override void Process(int top)
@@ -25,7 +25,7 @@ public class Categories : DataAccessor
 
         for (int i = 0; i < top; i++)
         {
-            Console.WriteLine(categories?[i]);
+            Console.WriteLine(_categories?[i]);
         }
 
         Console.WriteLine();
@@ -33,6 +33,6 @@ public class Categories : DataAccessor
 
     public override void Disconnect()
     {
-        categories?.Clear();
+        _categories?.Clear();
     }
 }

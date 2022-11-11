@@ -19,6 +19,6 @@ public static class Program
         account.OrderToPay(1100.00);
         account.AddOrderHistory(10000000.0);
 
-        Console.ReadKey();
+        _ = Console.ReadKey();
     }
 }

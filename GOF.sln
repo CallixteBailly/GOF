@@ -45,9 +45,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.State", "GOF.State\GOF.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Strategy", "GOF.Strategy\GOF.Strategy.csproj", "{D68CB15D-AF1F-4E4B-A658-8CEAFFA4789B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Template.Method", "GOF.Template.Method\GOF.Template.Method.csproj", "{DC08D4BF-024F-4459-AB40-EA2F536C347F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Template.Method", "GOF.Template.Method\GOF.Template.Method.csproj", "{DC08D4BF-024F-4459-AB40-EA2F536C347F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Visitor", "GOF.Visitor\GOF.Visitor.csproj", "{05FE1BDE-E0B0-4DAF-8C91-D653BD1DB7F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GOF.Visitor", "GOF.Visitor\GOF.Visitor.csproj", "{05FE1BDE-E0B0-4DAF-8C91-D653BD1DB7F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1BFF1483-E06F-49ED-947A-18A661FE8AB4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

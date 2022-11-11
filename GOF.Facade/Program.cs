@@ -15,7 +15,7 @@
             Console.WriteLine("\n" + customer.Name +
                     " has been " + (eligible ? "Approved" : "Rejected"));
 
-            Console.ReadKey();
+            _ = Console.ReadKey();
         }
     }
 }

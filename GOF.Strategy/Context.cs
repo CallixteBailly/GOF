@@ -40,8 +40,10 @@ internal class Context
         });
 
         string resultStr = string.Empty;
-        if(result == null)
+        if (result == null)
+        {
             return;
+        }
 
         foreach (Item item in (List<Item>)result)
         {

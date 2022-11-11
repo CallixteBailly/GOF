@@ -1,15 +1,14 @@
-﻿using System.Threading.Tasks;
-namespace GOF.Mediator;
+﻿namespace GOF.Mediator;
 
 public class Chatroom : AbstractChatroom
 {
-    private readonly Dictionary<string, Participant> participants = new();
+    private readonly Dictionary<string, Participant> _participants = new();
 
     public override void Register(Participant participant)
     {
-        if (!participants.ContainsValue(participant) && participant.Name is not null)
+        if (!_participants.ContainsValue(participant) && participant.Name is not null)
         {
-            participants[participant.Name] = participant;
+            _participants[participant.Name] = participant;
         }
 
         participant.Chatroom = this;
@@ -17,7 +16,7 @@ public class Chatroom : AbstractChatroom
 
     public override void Send(string from, string to, string message)
     {
-        Participant participant = participants[to];
+        Participant participant = _participants[to];
 
         participant?.Receive(from, message);
     }

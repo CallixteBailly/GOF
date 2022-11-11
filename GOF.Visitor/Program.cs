@@ -17,6 +17,6 @@ public static class Program
         customer.Accept(new SerivceFeesVisitor());
         customer.Accept(new PerMonthVisitor());
 
-        Console.ReadKey();
+        _ = Console.ReadKey();
     }
 }

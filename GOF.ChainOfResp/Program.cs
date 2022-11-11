@@ -4,7 +4,9 @@ public static class Program
     public static void Main(string[] args)
     {
         if (args == null)
+        {
             throw new ArgumentNullException(nameof(args));
+        }
         // Setup Chain of Responsibility
 
         Approver claimLow = new ClaimLvlLow();
@@ -27,6 +29,6 @@ public static class Program
 
         // Wait for user
 
-        Console.ReadKey();
+        _ = Console.ReadKey();
     }
 }

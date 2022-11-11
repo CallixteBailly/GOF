@@ -5,11 +5,11 @@ namespace GOF.Iterator
     internal class ItemsCollection : IteratorAggregate
     {
         public List<Item>? Collection { get; set; } = new List<Item>();
-        private bool _RemaningPriority = false;
+        private bool _remaningPriority = false;
 
         public void ReverseDirection()
         {
-            _RemaningPriority = !_RemaningPriority;
+            _remaningPriority = !_remaningPriority;
         }
 
         public List<Item> GetItems()
@@ -24,7 +24,7 @@ namespace GOF.Iterator
 
         public override IEnumerator GetEnumerator()
         {
-            return new RemaningPriorityOrderIterator(this, _RemaningPriority);
+            return new RemaningPriorityOrderIterator(this, _remaningPriority);
         }
     }
 }

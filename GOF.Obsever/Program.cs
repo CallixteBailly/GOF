@@ -19,6 +19,6 @@ public static class Program
         item.Detach(customer);
         item.Price = 190.75;
 
-        Console.ReadKey();
+        _ = Console.ReadKey();
     }
 }

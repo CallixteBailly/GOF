@@ -5,7 +5,9 @@ public static class Program
     public static void Main(string[] args)
     {
         if (args == null)
+        {
             throw new ArgumentNullException(nameof(args));
+        }
 
         const string stepOrderCustomer = "ACEFGLILMO";
         Context context = new(stepOrderCustomer);
